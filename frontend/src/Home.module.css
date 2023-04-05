@@ -1,0 +1,14 @@
+/* styling for the home page */
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.col-3.mx-auto {
+  display: flex;
+  justify-content: center;
+}
