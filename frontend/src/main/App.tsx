@@ -8,6 +8,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from '../Header';
 import FoodList from '../food/FoodList';
 import Test from '../food/Test';
+import MovieList from '../movies/MovieList';
+import MovieTest from '../movies/MovieTest';
 
 // App.tsx page that brings all the functions together and creates the paths for navigation
 
@@ -23,6 +25,8 @@ function App() {
           <Route path="Header" element={<Header />} />
           <Route path="FoodList" element={<FoodList />} />
           <Route path="Test" element={<Test />} />
+          <Route path="MovieList" element={<MovieList />} />
+          <Route path="MovieTest" element={<MovieTest />} />
         </Routes>
       </BrowserRouter>
     </div>

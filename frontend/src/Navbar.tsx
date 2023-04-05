@@ -26,6 +26,12 @@ function Navbar() {
         <Link to="/Test" className="mx-3">
           Test
         </Link>
+        <Link to="/MovieList" className="mx-3">
+          MovieList
+        </Link>
+        <Link to="/MovieTest" className="mx-3">
+          MovieTest
+        </Link>
       </nav>
       <br></br>
     </div>
