@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
+// movie db context file
+
 namespace Mission14_backend.Data
 {
     public class MoviesDbContext: DbContext

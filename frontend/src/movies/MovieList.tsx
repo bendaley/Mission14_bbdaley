@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
+// useEffect ^^ to comply with Spencer's wishes
 import { Movie } from '../types/movie';
 import Layout from '../pages/Layout';
+
+// movie list page! Forms a table & imports the data to populate it
 
 function MovieList() {
   const [movieData, setMovieData] = useState<Movie[]>([]);

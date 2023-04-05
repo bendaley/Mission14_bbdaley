@@ -1,3 +1,5 @@
+// export the data type structure for the movies
+
 export type Movie = {
   movieId: number;
   category: string;

@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Mission14_backend.Data;
 
+// movie controller - also includes a filter to only include movies that are edited & order them alphabetically
+
 namespace Mission14_backend.Controllers
 {
     [ApiController]

@@ -1,6 +1,8 @@
 import logo from '../daley.png';
 import Layout from '../pages/Layout';
 
+// just a testing page to understand the navigation better
+
 // function Header(props: any) {
 function MovieTest() {
   return (

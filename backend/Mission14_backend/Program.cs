@@ -4,12 +4,12 @@ using Mission14_backend.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// test to see if this comment shows up
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+// adding in my connection string for movies
 builder.Services.AddDbContext<MoviesDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("MovieCollectionDb"))
 );

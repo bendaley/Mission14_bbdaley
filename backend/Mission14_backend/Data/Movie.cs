@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+// models for my movies
+
 namespace Mission14_backend.Data
 {
     public class Movie
